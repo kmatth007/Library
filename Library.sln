@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Model", "Library.Model\Library.Model.csproj", "{519EE7CB-6A42-4F15-83DA-B0418B6BA562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Infrastructure", "Library.Infrastructure\Library.Infrastructure.csproj", "{53B1A0DC-CC40-44E4-85FA-C62E66DDFD02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Repository.EF", "Library.Repository.EF\Library.Repository.EF.csproj", "{582DD659-5745-4C3A-8458-C529ED91D36D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Repository.NHibernate", "Library.Repository.NHibernate\Library.Repository.NHibernate.csproj", "{2B088D97-E7C2-438C-AEB7-5B5BDEC75402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Services", "Library.Services\Library.Services.csproj", "{242AC478-27DB-44A9-B1BD-5D0065D1954B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.UI.Web", "Library.UI.Web\Library.UI.Web.csproj", "{FF2C7885-31BF-43E5-A362-D115FF99F089}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{242AC478-27DB-44A9-B1BD-5D0065D1954B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{242AC478-27DB-44A9-B1BD-5D0065D1954B}.Debug|x86.Build.0 = Debug|Any CPU
+		{242AC478-27DB-44A9-B1BD-5D0065D1954B}.Release|x86.ActiveCfg = Release|Any CPU
+		{242AC478-27DB-44A9-B1BD-5D0065D1954B}.Release|x86.Build.0 = Release|Any CPU
+		{2B088D97-E7C2-438C-AEB7-5B5BDEC75402}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2B088D97-E7C2-438C-AEB7-5B5BDEC75402}.Debug|x86.Build.0 = Debug|Any CPU
+		{2B088D97-E7C2-438C-AEB7-5B5BDEC75402}.Release|x86.ActiveCfg = Release|Any CPU
+		{2B088D97-E7C2-438C-AEB7-5B5BDEC75402}.Release|x86.Build.0 = Release|Any CPU
+		{519EE7CB-6A42-4F15-83DA-B0418B6BA562}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{519EE7CB-6A42-4F15-83DA-B0418B6BA562}.Debug|x86.Build.0 = Debug|Any CPU
+		{519EE7CB-6A42-4F15-83DA-B0418B6BA562}.Release|x86.ActiveCfg = Release|Any CPU
+		{519EE7CB-6A42-4F15-83DA-B0418B6BA562}.Release|x86.Build.0 = Release|Any CPU
+		{53B1A0DC-CC40-44E4-85FA-C62E66DDFD02}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{53B1A0DC-CC40-44E4-85FA-C62E66DDFD02}.Debug|x86.Build.0 = Debug|Any CPU
+		{53B1A0DC-CC40-44E4-85FA-C62E66DDFD02}.Release|x86.ActiveCfg = Release|Any CPU
+		{53B1A0DC-CC40-44E4-85FA-C62E66DDFD02}.Release|x86.Build.0 = Release|Any CPU
+		{582DD659-5745-4C3A-8458-C529ED91D36D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{582DD659-5745-4C3A-8458-C529ED91D36D}.Debug|x86.Build.0 = Debug|Any CPU
+		{582DD659-5745-4C3A-8458-C529ED91D36D}.Release|x86.ActiveCfg = Release|Any CPU
+		{582DD659-5745-4C3A-8458-C529ED91D36D}.Release|x86.Build.0 = Release|Any CPU
+		{FF2C7885-31BF-43E5-A362-D115FF99F089}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FF2C7885-31BF-43E5-A362-D115FF99F089}.Debug|x86.Build.0 = Debug|Any CPU
+		{FF2C7885-31BF-43E5-A362-D115FF99F089}.Release|x86.ActiveCfg = Release|Any CPU
+		{FF2C7885-31BF-43E5-A362-D115FF99F089}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Library.Model\Library.Model.csproj
+	EndGlobalSection
+EndGlobal

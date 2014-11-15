@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{519EE7CB-6A42-4F15-83DA-B0418B6BA562}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Library.Model</RootNamespace>
+    <AssemblyName>Library.Model</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="Member.cs" />
+    <Compile Include="Loan.cs" />
+    <Compile Include="LoanFactory.cs" />
+    <Compile Include="IBookRepository.cs" />
+    <Compile Include="IBookTitleRepository.cs" />
+    <Compile Include="IMemberRepository.cs" />
+    <Compile Include="LoanService.cs" />
+    <Compile Include="BookTitle.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Library.Infrastructure\Library.Infrastructure.csproj">
+      <Project>{53B1A0DC-CC40-44E4-85FA-C62E66DDFD02}</Project>
+      <Name>Library.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
